@@ -32666,7 +32666,7 @@ var App = function App() {
     path: "/",
     component: _page_Top__WEBPACK_IMPORTED_MODULE_4__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    path: "/hello",
+    path: "/hello/hello/hello",
     component: _page_Hello__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     render: function render() {
@@ -32785,7 +32785,7 @@ __webpack_require__.r(__webpack_exports__);
 var Top = function Top() {
   var str = "React + TypeScript on Spring Boot!";
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, str), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/hello"
+    to: "/hello/hello/hello"
   }, "\u306F\u308D\u30FC\u3078"));
 };
 

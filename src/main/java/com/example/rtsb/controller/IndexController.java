@@ -2,16 +2,14 @@ package com.example.rtsb.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * @author Miura Kazuto
  */
 @Controller
-@RequestMapping(path = "/**")
-public class HomeController {
+public class IndexController {
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(path = {"/**"})
     public String index() {
         return "index";
     }
