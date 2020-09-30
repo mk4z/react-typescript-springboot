@@ -2,8 +2,8 @@ import React from "react";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Top from "./page/Top";
-import Hello from "./page/Hello";
+import Top from "./screens/Top";
+import Hello from "./screens/Hello";
 
 const App: React.FC = () => {
     return (

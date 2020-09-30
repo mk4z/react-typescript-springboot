@@ -32651,8 +32651,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Header */ "./src/main/js/components/Header.tsx");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Footer */ "./src/main/js/components/Footer.tsx");
-/* harmony import */ var _page_Top__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page/Top */ "./src/main/js/page/Top.tsx");
-/* harmony import */ var _page_Hello__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./page/Hello */ "./src/main/js/page/Hello.tsx");
+/* harmony import */ var _screens_Top__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./screens/Top */ "./src/main/js/screens/Top.tsx");
+/* harmony import */ var _screens_Hello__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./screens/Hello */ "./src/main/js/screens/Hello.tsx");
 
 
 
@@ -32664,10 +32664,10 @@ var App = function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
     path: "/",
-    component: _page_Top__WEBPACK_IMPORTED_MODULE_4__["default"]
+    component: _screens_Top__WEBPACK_IMPORTED_MODULE_4__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    path: "/hello/hello/hello",
-    component: _page_Hello__WEBPACK_IMPORTED_MODULE_5__["default"]
+    path: "/hello",
+    component: _screens_Hello__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     render: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "not found...");
@@ -32742,10 +32742,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./src/main/js/page/Hello.tsx":
-/*!************************************!*\
-  !*** ./src/main/js/page/Hello.tsx ***!
-  \************************************/
+/***/ "./src/main/js/screens/Hello.tsx":
+/*!***************************************!*\
+  !*** ./src/main/js/screens/Hello.tsx ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -32767,10 +32767,10 @@ var Hello = function Hello() {
 
 /***/ }),
 
-/***/ "./src/main/js/page/Top.tsx":
-/*!**********************************!*\
-  !*** ./src/main/js/page/Top.tsx ***!
-  \**********************************/
+/***/ "./src/main/js/screens/Top.tsx":
+/*!*************************************!*\
+  !*** ./src/main/js/screens/Top.tsx ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -32785,7 +32785,7 @@ __webpack_require__.r(__webpack_exports__);
 var Top = function Top() {
   var str = "React + TypeScript on Spring Boot!";
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, str), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/hello/hello/hello"
+    to: "/hello"
   }, "\u306F\u308D\u30FC\u3078"));
 };
 
