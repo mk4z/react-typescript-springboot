@@ -1,7 +1,6 @@
 package com.example.rtsb.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -17,8 +16,7 @@ public class IndexController {
                     //add other paths
             }
     )
-    public String index(Model model) {
-        model.addAttribute("test","aiueo");
+    public String index() {
         return "index";
     }
 
